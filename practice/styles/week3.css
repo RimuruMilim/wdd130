@@ -1,0 +1,22 @@
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+.pink-background{
+    background-color: hotpink;
+}
+
+.blue-background{
+    background-color: lightblue;
+}
+
+p{
+    background-color: aquamarine;
+}
+
+#my-name{
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+}
