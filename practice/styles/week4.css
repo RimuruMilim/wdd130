@@ -1,0 +1,50 @@
+body{
+    font-size: 2em;
+
+}
+
+main{
+    background-color: lightblue;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img1{
+    width: 70%;
+    height: 350px;
+}
+
+.img2{
+    width: 50%;
+}
+
+#green{
+    background-color: lightgreen;
+}
+
+p{
+    color: hotpink;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer p{
+    color: darkblue;
+}
+
+a:hover{/* Used for the coloring of link when mouse is hovering 
+    over it*/
+    background-color: blueviolet;
+    color: white;
+}
+
+nav{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+nav a{
+    margin: 50px;
+}
