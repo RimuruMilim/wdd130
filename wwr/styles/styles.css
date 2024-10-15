@@ -16,6 +16,7 @@ nav a{
     margin: 50px;
     border: 1px solid black;
     padding: 12px;
+    color: black;
 }
 
 #background{
@@ -28,8 +29,25 @@ a {
 
 body{
     text-align: center;
+    background-color: #53d8fb;
+}
+
+header{
+    background-color: #2364aa;
+    padding-bottom: 10px;
 }
 
 img {
     width: 80px;
+    padding-top: 5px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #53d8fb;
+}
+
+footer{
+    background-color: #2364aa;
+    padding-top: 10px;
 }
