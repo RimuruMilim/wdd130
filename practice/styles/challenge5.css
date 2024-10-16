@@ -1,0 +1,20 @@
+
+header{
+    text-align: center;
+}   
+header img{
+    width: 100%;
+}
+
+main img{
+    border-radius: 100%;
+    width: 20%;
+    margin: 40px;
+    border: 20px solid rgb(67, 62, 62);
+}
+
+body{
+    text-align: center;
+    background-color: #717177;
+    border: 5px solid white;
+}
