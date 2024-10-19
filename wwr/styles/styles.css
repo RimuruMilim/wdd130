@@ -15,8 +15,9 @@ nav {
 nav a{
     margin: 50px;
     border: 1px solid black;
-    padding: 12px;
+    padding: 20px;
     color: black;
+    background-color: #66c3ff;
 }
 
 #background{
@@ -37,7 +38,22 @@ header{
     padding-bottom: 10px;
 }
 
-img {
+#hero-img{
+    width: 80px;
+    padding-top: 5px;
+}
+
+.card-img{
+    width: 80px;
+    padding-top: 5px;
+}
+
+.mountains{
+    width: 80px;
+    padding-top: 5px;
+}
+
+.logo{
     width: 80px;
     padding-top: 5px;
 }
