@@ -1,15 +1,21 @@
+body{
+    
+    background-color: #53d8fb;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 
-#background{
-    height: 725px;
+header{
+    background-color: #2364aa;
+    padding-bottom: 10px;
 }
 
-nav {
-    text-align: center;
-    margin: 20px;
+.logo{
+    width: 80px;
+    padding-top: 5px;
 }
 
 nav a{
@@ -18,29 +24,59 @@ nav a{
     padding: 20px;
     color: black;
     background-color: #66c3ff;
-}
-
-#background{
-    height: 725px;
-}
-
-a {
+    text-align: center;
     text-decoration: none;
 }
 
-body{
-    text-align: center;
+nav a:hover{
+    color: white;
     background-color: #53d8fb;
 }
 
-header{
-    background-color: #2364aa;
-    padding-bottom: 10px;
+.home-title{
+    color: black;
+}
+
+h4{
+    color: black;
 }
 
 #hero-img{
-    width: 80px;
+    width: 100%;
     padding-top: 5px;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+.msg{
+    background-color: #2364aa;
+}
+
+main section{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+.book{
+    background-color: #66c3ff;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.book:hover{
+    color: white;
+    background-color: #53d8fb;
 }
 
 .card-img{
@@ -53,17 +89,52 @@ header{
     padding-top: 5px;
 }
 
-.logo{
-    width: 80px;
-    padding-top: 5px;
+.join{
+    background-color: #66c3ff;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    text-decoration: none;
 }
 
-nav a:hover{
+.join:hover{
     color: white;
     background-color: #53d8fb;
 }
 
+.msg h2{
+    color: #000000;
+}
+
+.msg p{
+    color: #ffffff;
+}
+
+#background{
+    height: 725px;
+    background-color: #ffffff;
+}
+
+
+
 footer{
     background-color: #2364aa;
     padding-top: 10px;
+}
+
+footer a{
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #ffffff;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
 }
