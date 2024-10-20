@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
+
+
 body{
-    
+    font-family: "Roboto", Helvetica, sans-serif;
     background-color: #53d8fb;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 #content{
@@ -18,12 +27,16 @@ header{
     padding-top: 5px;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 nav a{
-    margin: 50px;
-    border: 1px solid black;
-    padding: 20px;
+
+
+    padding: 35px;
     color: black;
-    background-color: #66c3ff;
+
     text-align: center;
     text-decoration: none;
 }
@@ -35,6 +48,9 @@ nav a:hover{
 
 .home-title{
     color: black;
+    font-family: "Rock Salt";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -56,10 +72,16 @@ h4{
 
 .msg{
     background-color: #2364aa;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 main section{
     text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
 }
 
 .button-box{
@@ -70,8 +92,11 @@ main section{
     background-color: #66c3ff;
     color: black;
     border: 1px solid black;
-    padding: 15px;
+    border-radius: 5px;
+    padding: 15px 30px;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
 }
 
 .book:hover{
@@ -80,8 +105,20 @@ main section{
 }
 
 .card-img{
-    width: 80px;
     padding-top: 5px;
+    border: 10px solid black;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
 }
 
 .mountains{
@@ -89,12 +126,20 @@ main section{
     padding-top: 5px;
 }
 
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
 .join{
     background-color: #66c3ff;
     color: black;
     border: 1px solid black;
-    padding: 5px;
+    border-radius: 5px;
+    padding: 15px 30px;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
 }
 
 .join:hover{
@@ -104,10 +149,13 @@ main section{
 
 .msg h2{
     color: #000000;
+    font-family: "Rock Salt";
 }
 
 .msg p{
     color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 #background{
@@ -120,6 +168,8 @@ main section{
 footer{
     background-color: #2364aa;
     padding-top: 10px;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -137,4 +187,8 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
