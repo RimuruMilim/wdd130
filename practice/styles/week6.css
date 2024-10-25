@@ -1,0 +1,23 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+h1{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+.beach-path{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+aside{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
