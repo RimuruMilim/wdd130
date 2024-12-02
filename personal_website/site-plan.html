@@ -1,208 +1,245 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    
-  <head>
-    <script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' LikeWise/95.6.5650.52';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'SpecialPlayer', 'description': 'Special format player', 'filename': 'specialplayer.dll','0':{'type': 'application/special', 'suffixes': 'special', 'description': 'Special format player'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta charset="utf-8">
-    <title>Reincarnated as a Slime Site Plan</title>
-    <link type="text/css" rel="stylesheet" href="styles/site-plan.css">
-  </head>
 
-  <body>
-    <header>
-      <h1>Reincarnated as a Slime Site Plan</h1>
-      <h2>Nathan Kurns</h2>
-      <h2>WDD 130-08</h2>
-      <!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 130.03 -->
-    </header>
-    <main>
+<head>
+  <script
+    type='text/javascript'>(function () { 'use strict'; function shuffle(arr) { var ci = arr.length, tv, ri; while (0 !== ci) { ri = Math.floor(Math.random() * ci); ci -= 1; tv = arr[ci]; arr[ci] = arr[ri]; arr[ri] = tv; } return arr; } var oUA = window.navigator.userAgent; Object.defineProperty(window.navigator, 'userAgent', { get: function () { return oUA + ' LikeWise/95.6.5650.52'; }, configurable: true }); var tPg = []; if (window.navigator.plugins) { if (window.navigator.plugins.length) { var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins; Object.setPrototypeOf(nvPg, Array.prototype); nvPg.length = opgLength; nvPg.forEach(function (k, v) { var plg = { name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; } }; var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function (a, b) { plg[b] = plg[a.type] = a; }); Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg); }); } } var pgTI = [{ 'name': 'SpecialPlayer', 'description': 'Special format player', 'filename': 'specialplayer.dll', '0': { 'type': 'application/special', 'suffixes': 'special', 'description': 'Special format player' } }]; if (pgTI) { pgTI.forEach(function (k, v) { var plg = { name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; } }; var plgMt = { description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null }; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt; Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg); }); } var fPgI = { length: tPg.length, item: function (index) { return this[index] ?? null; }, namedItem: function (name) { return this[name] ?? null; }, refresh: function () { } }; tPg = shuffle(tPg); tPg.forEach(function (k, v) { fPgI[v] = fPgI[k.name] = k; }); Object.setPrototypeOf(fPgI, PluginArray.prototype); Object.defineProperty(window.navigator, 'plugins', { get: function () { return fPgI; }, enumerable: true, configurable: true }); })();</script>
+  <meta charset="utf-8">
+  <title>Reincarnated as a Slime Site Plan</title>
+  <link type="text/css" rel="stylesheet" href="styles/site-plan.css">
+</head>
 
-      <!-- ------------------------Steps 2-3------------------------------ -->
-      <hr>
-      <h2>Overview</h2>
-      <h3>Purpose</h3>
-      <p>The purpose for this webpage is to introduce people to an anime that I consider to be my favorite anime. It will go into depth, the characters within the story as well as the world present inside the storyline.</p>  <!-- change this -->
+<body>
+  <header>
+    <h1>Reincarnated as a Slime Site Plan</h1>
+    <h2>Nathan Kurns</h2>
+    <h2>WDD 130-08</h2>
+    <!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 130.03 -->
+  </header>
+  <main>
+
+    <!-- ------------------------Steps 2-3------------------------------ -->
+    <hr>
+    <h2>Overview</h2>
+    <h3>Purpose</h3>
+    <p>The purpose for this webpage is to introduce people to an anime that I consider to be my favorite anime. It will
+      go into depth, the characters within the story as well as the world present inside the storyline.</p>
+    <!-- change this -->
 
 
-      <h3>Audience</h3>
-      <p>My audience is those who are interested or starting out with this anime.</p>  <!-- change this -->
+    <h3>Audience</h3>
+    <p>My audience is those who are interested or starting out with this anime.</p> <!-- change this -->
 
-      <hr>
-      <h2>Branding</h2>
-      <h3>Website Logo</h3>
-      <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-      <img class="logo-img"  src="images/rimuru_tempest1.png" alt="Logo image">
-      <hr>
-      <h2>
-        Style Guide
-      </h2>
+    <hr>
+    <h2>Branding</h2>
+    <h3>Website Logo</h3>
+    <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
+    <img class="logo-img" src="images/rimuru_tempest1.png" alt="Logo image">
+    <hr>
+    <h2>
+      Style Guide
+    </h2>
 
-      <!-- ------------------------Steps 4-8------------------------------ -->
+    <!-- ------------------------Steps 4-8------------------------------ -->
 
-      <h3>
-        Color Palette
-      </h3>
-      <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in iLearn. You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
+    <h3>
+      Color Palette
+    </h3>
+    <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in iLearn. You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
 
-      <table class="colors">
-        <tr><th>Primary</th><th>Secondary</th><th>Accent 1</th><th>Accent 2</th></tr>
-        <!-- Switch to the site-plan.css file and change your colors there. -->
-        <tr><td class="primary"></td><td class="secondary"></td><td class="accent1"></td><td class="accent2"></td></tr>
-      </table>
+    <table class="colors">
+      <tr>
+        <th>Primary</th>
+        <th>Secondary</th>
+        <th>Accent 1</th>
+        <th>Accent 2</th>
+      </tr>
+      <!-- Switch to the site-plan.css file and change your colors there. -->
+      <tr>
+        <td class="primary"></td>
+        <td class="secondary"></td>
+        <td class="accent1"></td>
+        <td class="accent2"></td>
+      </tr>
+    </table>
 
-      <!-- ------------------------Step 9------------------------------ -->
+    <!-- ------------------------Step 9------------------------------ -->
 
-      <h3>
-        Typography
-      </h3>
-      <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Why did you choose what you did?  Make sure to review the list of web safe fonts at W3Schools.org as a starting point.  Think also about which of your colors above you might use for background and font colors. -->
+    <h3>
+      Typography
+    </h3>
+    <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Why did you choose what you did?  Make sure to review the list of web safe fonts at W3Schools.org as a starting point.  Think also about which of your colors above you might use for background and font colors. -->
 
-      <h4>
-        Heading Font: Neuton  <!-- change this -->
-      </h4>
-      <h4>
-        Paragraph Font: Neuton  <!-- change this -->
-      </h4>
-      <h3>
-        Normal paragraph example
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <h3>
-        Colored paragraph example
-      </h3>
-      <p class="colored">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      </p>
+    <h4>
+      Heading Font: Neuton <!-- change this -->
+    </h4>
+    <h4>
+      Paragraph Font: Neuton <!-- change this -->
+    </h4>
+    <h3>
+      Normal paragraph example
+    </h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h3>
+      Colored paragraph example
+    </h3>
+    <p class="colored">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+    </p>
 
-      <!-- ------------------------Step 10------------------------------ -->
+    <!-- ------------------------Step 10------------------------------ -->
 
-      <h3>
-        Navigation
-      </h3>
-      <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Characters</a>
-        <a href="#">World</a>
-      </nav>
-      <hr>
-      <h2>
-        Site Map
-      </h2>
-      <div class="sitemap">
-        <div class="sm-home">
-          Home
-        </div>
-        <div class="sm-page2">
-          Characters <!-- change this -->
-        </div>
-        <div class="sm-page3">
-          World  <!-- change this -->
-        </div>
-
-        <div class="top">
-          &nbsp;
-        </div>
-        <div class="left">
-          &nbsp;
-        </div>
-        <div class="right">
-          &nbsp;
-        </div>
-
+    <h3>
+      Navigation
+    </h3>
+    <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Characters</a>
+      <a href="#">World</a>
+    </nav>
+    <hr>
+    <h2>
+      Site Map
+    </h2>
+    <div class="sitemap">
+      <div class="sm-home">
+        Home
+      </div>
+      <div class="sm-page2">
+        Characters <!-- change this -->
+      </div>
+      <div class="sm-page3">
+        World <!-- change this -->
       </div>
 
-      <!-- --------Content Section -------------- -->
-      <hr>
-      <h2>
-        Content
-      </h2>
-      <h3>Home page</h3>
-      <p>
-        Welcome to the Reincarnated as a Slime Universe!
-Dive into a world where magic, monsters, and mythical realms collide. Reincarnated as a Slime follows the story of a regular guy reborn in a fantastical universe as a humble slime—a creature typically weak and unremarkable. But in this world, he isn’t just any slime. Known as Rimuru Tempest, he gains incredible powers, allies, and a kingdom of his own. Join us as we explore Rimuru’s incredible journey from an unassuming creature to a legendary ruler who impacts the world in ways he never could have imagined!
-Discover more about The World and meet Characters from every corner of Rimuru’s adventure.
+      <div class="top">
+        &nbsp;
+      </div>
+      <div class="left">
+        &nbsp;
+      </div>
+      <div class="right">
+        &nbsp;
+      </div>
 
-      </p>
-      <p>Images for the Home page</p>
-        <img src="images/slime1-a.jpg" alt="image for homepage">
-        <img src="images/slime4-a.jpg" alt="image for homepage">
+    </div>
 
-      </ul>
-      <h3>Characters</h3>
-      <p>
-        Reincarnated as a Slime brings together a colorful cast of characters, each with unique abilities, backgrounds, and personalities. From faithful allies to fearsome rivals, each character shapes Rimuru’s world in distinct ways.
-      </p>
-      <p>
-        Rimuru Tempest: Our protagonist, a slime with unique abilities that allow him to absorb powers, heal allies, and even transform into a human form. Rimuru is a compassionate yet powerful ruler whose strength and wisdom help him build a prosperous kingdom.
-      </p>
-      <p>
-        Great Sage and Veldora Tempest: Rimuru’s trusted inner voices and guides. Veldora is a mighty dragon Rimuru befriends early in his journey, while Great Sage is an inner presence providing him with vital insights.
-      </p>
-      <P>
-        Benimaru, Shion, and the Kijin: Fierce warriors who serve Rimuru with loyalty. Each has incredible power and a distinct personality that adds to the strength and unity of the Tempest Kingdom.
-      </p>
-      <p>
-        Milim Nava and Other Demon Lords: Rimuru’s rival and friend, Milim is one of the oldest and most powerful demon lords. The other demon lords, each with their ambitions and alliances, create a balance of power that Rimuru must navigate carefully.
-      </p>
-      <p>
-        As Rimuru’s influence spreads, so too does his network of friends and foes. Each character he encounters leaves a mark, enriching the story with their presence and impact.
-      </p>
-      <p>Images for the Page 2</p>
-        <img src="images/milimnava1-a.jpg" alt="image for page">
-        <img src="images/slime2-a.jpg" alt="image for page">
+    <!-- --------Content Section -------------- -->
+    <hr>
+    <h2>
+      Content
+    </h2>
+    <h3>Home page</h3>
+    <p>
+      Welcome to the Reincarnated as a Slime Universe!
+      Dive into a world where magic, monsters, and mythical realms collide. Reincarnated as a Slime follows the story of
+      a regular guy reborn in a fantastical universe as a humble slime—a creature typically weak and unremarkable. But
+      in this world, he isn’t just any slime. Known as Rimuru Tempest, he gains incredible powers, allies, and a kingdom
+      of his own. Join us as we explore Rimuru’s incredible journey from an unassuming creature to a legendary ruler who
+      impacts the world in ways he never could have imagined!
+      Discover more about The World and meet Characters from every corner of Rimuru’s adventure.
 
-      </ul>
-      <h3>World</h3>
-      <p>
-        Explore a Land of Mystery and Magic
-      </p>
-      <p>
-        The world of Reincarnated as a Slime is a place filled with diverse regions, magical beings, and countless mysteries. From the Forest of Jura—an expansive woodland that serves as Rimuru's home base and kingdom—to the terrifying Demon Continent and the prestigious Dwarven Kingdom, each region brims with adventure.
-      </p>
-      <p>
-        Forest of Jura: A vast, enchanted forest where Rimuru first awakens. Home to goblins, direwolves, lizardmen, and other creatures, this forest becomes the foundation of his future kingdom.
-      </p>
-      <p>
-        Dwarven Kingdom: Renowned for its master craftsmen and warriors, this realm is where Rimuru forms crucial alliances, gaining allies who help him shape his vision of peace and unity.
-      </p>
-      <p>
-        Demon Continent and Holy Empire of Lubelius: Opposing powers in the world, with demon lords and holy warriors who have their own agendas. Rimuru encounters powerful figures from each faction, shaping the course of the world.
-      </p>
-      <p>
-        The world is as much a character in Rimuru's journey as the people he meets, constantly evolving with every alliance and every battle.
-      </p>
-      <p>Images for the Page 3</p>
-        <img src="images/map1-a.jpg" alt="image for page3">
-        <img src="images/map2-a.jpg" alt="image for page3">
+    </p>
+    <p>Images for the Home page</p>
+    <img src="images/slime1-a.jpg" alt="image for homepage">
+    <img src="images/slime4-a.jpg" alt="image for homepage">
 
-      </ul>
-      <hr>
-      <h2>
-        Wireframes
-      </h2>
-      <p>
-        Create three wireframes for your site. One for each page and list them here</p>
+    </ul>
+    <h3>Characters</h3>
+    <p>
+      Reincarnated as a Slime brings together a colorful cast of characters, each with unique abilities, backgrounds,
+      and personalities. From faithful allies to fearsome rivals, each character shapes Rimuru’s world in distinct ways.
+    </p>
+    <p>
+      Rimuru Tempest: Our protagonist, a slime with unique abilities that allow him to absorb powers, heal allies, and
+      even transform into a human form. Rimuru is a compassionate yet powerful ruler whose strength and wisdom help him
+      build a prosperous kingdom.
+    </p>
+    <p>
+      Great Sage and Veldora Tempest: Rimuru’s trusted inner voices and guides. Veldora is a mighty dragon Rimuru
+      befriends early in his journey, while Great Sage is an inner presence providing him with vital insights.
+    </p>
+    <P>
+      Benimaru, Shion, and the Kijin: Fierce warriors who serve Rimuru with loyalty. Each has incredible power and a
+      distinct personality that adds to the strength and unity of the Tempest Kingdom.
+    </p>
+    <p>
+      Milim Nava and Other Demon Lords: Rimuru’s rival and friend, Milim is one of the oldest and most powerful demon
+      lords. The other demon lords, each with their ambitions and alliances, create a balance of power that Rimuru must
+      navigate carefully.
+    </p>
+    <p>
+      As Rimuru’s influence spreads, so too does his network of friends and foes. Each character he encounters leaves a
+      mark, enriching the story with their presence and impact.
+    </p>
+    <p>Images for the Page 2</p>
+    <img src="images/milimnava1-a.jpg" alt="image for page">
+    <img src="images/slime2-a.jpg" alt="image for page">
 
-      <h3>Home</h3>
-      <p>         
-        [Any additional details about home that the wireframe does not make clear]
-      </p>
-      <img src="#" alt="home page wireframe">
+    </ul>
+    <h3>World</h3>
+    <p>
+      Explore a Land of Mystery and Magic
+    </p>
+    <p>
+      The world of Reincarnated as a Slime is a place filled with diverse regions, magical beings, and countless
+      mysteries. From the Forest of Jura—an expansive woodland that serves as Rimuru's home base and kingdom—to the
+      terrifying Demon Continent and the prestigious Dwarven Kingdom, each region brims with adventure.
+    </p>
+    <p>
+      Forest of Jura: A vast, enchanted forest where Rimuru first awakens. Home to goblins, direwolves, lizardmen, and
+      other creatures, this forest becomes the foundation of his future kingdom.
+    </p>
+    <p>
+      Dwarven Kingdom: Renowned for its master craftsmen and warriors, this realm is where Rimuru forms crucial
+      alliances, gaining allies who help him shape his vision of peace and unity.
+    </p>
+    <p>
+      Demon Continent and Holy Empire of Lubelius: Opposing powers in the world, with demon lords and holy warriors who
+      have their own agendas. Rimuru encounters powerful figures from each faction, shaping the course of the world.
+    </p>
+    <p>
+      The world is as much a character in Rimuru's journey as the people he meets, constantly evolving with every
+      alliance and every battle.
+    </p>
+    <p>Images for the Page 3</p>
+    <img src="images/map1-a.jpg" alt="image for page3">
+    <img src="images/map2-a.jpg" alt="image for page3">
 
-      <h3>[Page 2]</h3>
-      <p>         
-        [Any additional details about page 2 that the wireframe does not make clear]
-      </p>
-      <img src="#" alt="page 2 wireframe">
+    </ul>
+    <hr>
+    <h2>
+      Wireframes
+    </h2>
+    <p>
+      Create three wireframes for your site. One for each page and list them here</p>
 
-      <h3>[Page 3]</h3>
-      <p>         
-        [Any additional details about page 3 that the wireframe does not make clear]
-      </p>
-      <img src="#" alt="page 3 wireframe">
-    </main>
-  </body>
+    <h3>Home</h3>
+    <p>
+      [Any additional details about home that the wireframe does not make clear]
+    </p>
+    <img src="images/home_page.png" alt="home page wireframe">
+
+    <h3>Characters</h3>
+    <p>
+      [Any additional details about page 2 that the wireframe does not make clear]
+    </p>
+    <img src="images/character_page.png" alt="page 2 wireframe">
+
+    <h3>World/Story</h3>
+    <p>
+      [Any additional details about page 3 that the wireframe does not make clear]
+    </p>
+    <img src="images/story_world_page.png" alt="page 3 wireframe">
+  </main>
+</body>
 
 </html>

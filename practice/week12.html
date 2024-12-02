@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12</title>
+    <link rel="stylesheet" href="styles/week12.css">
+</head>
+
+<body>
+    <h1>Reincarnated as a Slime</h1>
+    <button class="accordion">Introduction</button>
+    <div class="panel">
+        <p>"Reincarnated as a Slime," or Tensei Shitara Slime Datta Ken, is a popular Japanese light novel series that
+            has captivated audiences worldwide. Written by Fuse and illustrated by Mitz Vah, it follows the story of
+            Satoru Mikami, a middle-aged office worker who is reincarnated into a fantasy world as a powerful slime
+            monster named Rimuru Tempest. The series has been adapted into manga and anime, blending humor, action, and
+            world-building with a fresh take on the isekai (otherworld) genre.</p>
+    </div>
+
+    <button class="accordion">Plot Overview</button>
+    <div class="panel">
+        <p>The story begins with Satoru's untimely death and subsequent reincarnation in an unfamiliar world. As a
+            slime, he gains unique abilities, including absorbing and mimicking the powers of others. Rimuru sets out to
+            create a peaceful community for all races, encountering friends and foes along the way. The narrative
+            explores themes of leadership, personal growth, and the challenges of building a utopia, all while
+            delivering epic battles and heartfelt moments.</p>
+    </div>
+
+    <button class="accordion">Cultural Impact</button>
+    <div class="panel">
+        <p>"Reincarnated as a Slime" has become a standout in the isekai genre, appealing to fans for its mix of
+            lighthearted comedy and deep storytelling. It has spawned an expansive franchise, including spin-offs, video
+            games, and merchandise. The anime adaptation, in particular, has been praised for its vibrant animation and
+            faithfulness to the source material. The series continues to inspire fans and creators alike, cementing its
+            place as a modern fantasy classic.</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
