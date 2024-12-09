@@ -7,7 +7,7 @@ header nav a{
     margin: 20px;
 }
 
-header img{
+.hero img{
     width: 200px;
-    border: 5px solid black;
+    border: 2px solid black;
 }
