@@ -34,6 +34,12 @@ header nav a:hover {
     color: #81C784; /* Soft green for hover */
 }
 
+header h1 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -132,6 +138,49 @@ main div img {
     border-radius: 10px;
 }
 
+.story {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.story p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.world {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.world h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.world img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.world p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 15px;
+}
+
 
 section {
     display: flex;
@@ -211,5 +260,17 @@ footer a:hover {
 
     header h1 {
         font-size: 1.5em;
+    }
+    .story, .world {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .world img {
+        max-width: 100%;
     }
 }
